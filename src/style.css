@@ -2,16 +2,16 @@ body {
   overflow: hidden;
   margin: 0px;
 }
-#debug {
-  font-family: monospace;
-  font-size: larger;
+
+.label {
   position: absolute;
-  left: 0px;
-  top: 50px;
-  border: 1px solid red;
-  padding: 10px;
-  width: 180px;
-  height: 220px;
-  color: white;
+  color: #ffffff;
+  font-family: monospace;
   pointer-events: none;
+  text-align: center;
+  width: 75px;
+  height: 25px;
+  font-size: 1vw;
+  filter: drop-shadow(2px 2px 1px #000000);
+  display: none;
 }
